@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class NewspaperClipping : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class NewspaperClipping : MonoBehaviour
 
     private TextMeshProUGUI _headline;
     private TextMeshProUGUI _bodyText;
-    private SpriteRenderer _picture;
+    private Image _picture;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class NewspaperClipping : MonoBehaviour
         _headline.text = _scriptableObject.Headline;
         _bodyText = paper.Find("Body Text").GetComponent<TextMeshProUGUI>();
         _bodyText.text = _scriptableObject.BodyText;
-        _picture = paper.Find("Picture").GetComponent<SpriteRenderer>();
+        _picture = paper.Find("Picture").GetComponent<Image>();
 
         if (_scriptableObject.Picture != null)
         {

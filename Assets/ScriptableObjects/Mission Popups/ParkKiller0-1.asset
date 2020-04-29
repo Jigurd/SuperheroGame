@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0913e650665bc024baae0ead5b6d4a2c, type: 3}
+  m_Name: ParkKiller0-1
+  m_EditorClassIdentifier: 
+  Title: 'The Park Killer: A New Lead'
+  TextBody: 'As I walk through the valley of the shadow of death I take a look at
+    my life and realize there''s not much left coz I''ve been blastin'' and laughin''
+    so long that even my mama thinks that my mind is gone '
+  Picture: {fileID: 0}
+  MoneyCost: 10
+  EnergyCost: 20
+  TimeCost: 2.5
+  Verb: Investigate!

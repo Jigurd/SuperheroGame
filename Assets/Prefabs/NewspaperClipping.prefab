@@ -90,7 +90,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _missionPopupPrefab: {fileID: 7914980345071208902, guid: cdcd004c005539349bc7bcf564e3a093,
     type: 3}
-  _mission: {fileID: 11400000, guid: eca17c97e4c4d6e48a33d3cd2e6f9c4d, type: 2}
 --- !u!1 &6277258889563105264
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0c5918eace287428d01e6643383c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scriptableObject: {fileID: 11400000, guid: 7022f1a3ebd60c04c818bb84c68ffa5f, type: 2}
+  ScriptableObject: {fileID: 11400000, guid: b22dde0d780bb4748939df74cf3972aa, type: 2}
 --- !u!1 &6277258890553729111
 GameObject:
   m_ObjectHideFlags: 0

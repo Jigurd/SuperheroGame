@@ -47,6 +47,7 @@ public class MissionPopup : MonoBehaviour
     public void Initialize(MissionPopupSO mission)
     {
         _title.text = mission.Title;
+        name = mission.name;
         _textBody.text = mission.TextBody;
         if (mission.Picture != null)
         {

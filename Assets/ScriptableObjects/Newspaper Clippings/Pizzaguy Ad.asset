@@ -15,3 +15,4 @@ MonoBehaviour:
   Headline: Help Wanted
   BodyText: Pizza Delivery Person Wanted at Luigi's
   Picture: {fileID: 0}
+  Mission: {fileID: 11400000, guid: d7a4037e4819d904a9e398bbd6f34a45, type: 2}

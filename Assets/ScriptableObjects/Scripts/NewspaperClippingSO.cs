@@ -8,7 +8,7 @@ public class NewspaperClippingSO : ScriptableObject
     public string Headline;
     public string BodyText;
     public Sprite Picture;
-    public ScriptableObject Mission;
+    public MissionPopupSO Mission;
 
     //Need some logic for dialogue options and whatnot at some point
 }

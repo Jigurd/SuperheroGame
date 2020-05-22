@@ -1,0 +1,1 @@
+Very basic stages atm. On the city map you can drag the map around with MMB or WASD. If you double click on the "Help Wanted" ad, it will open a little mission popup, which will change your resources.

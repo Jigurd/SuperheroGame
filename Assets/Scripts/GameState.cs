@@ -65,4 +65,6 @@ public class GameState : MonoBehaviour
         Time = (Time + amount) % 24;
         _timeText.text = Time.ToString();
     }
+
+
 }

@@ -16,3 +16,4 @@ MonoBehaviour:
   BodyText: Lorem Ipsum dolor ist amet, consectotur adlipscing elit, sed do eiusmod
     tempor, indicident ut labore et dolore magna aliqua. Ut enum ad medum.
   Picture: {fileID: 0}
+  Mission: {fileID: 11400000, guid: eca17c97e4c4d6e48a33d3cd2e6f9c4d, type: 2}

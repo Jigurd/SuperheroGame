@@ -7,7 +7,6 @@ public class MissionHandler : MonoBehaviour
     private float _time = 0;
     private static float _doubleClickTime = 0.2f;
     [SerializeField] private GameObject _missionPopupPrefab = null;
-    [SerializeField] private MissionPopupSO _mission=null; //TODO make it so you can instantiate several missions from one of these bois
 
     public void OnMouseDown()
     {
@@ -18,7 +17,7 @@ public class MissionHandler : MonoBehaviour
         {
             //Instantiate a mission popup
             GameObject popup = Instantiate(_missionPopupPrefab, transform.position, Quaternion.identity);
-            popup.GetComponent<MissionPopup>().Initialize(_mission);
+            popup.GetComponent<MissionPopup>().Initialize(transform.parent.parent.GetComponent<NewspaperClipping>().ScriptableObject.Mission);
         } else
         {
             //register new click

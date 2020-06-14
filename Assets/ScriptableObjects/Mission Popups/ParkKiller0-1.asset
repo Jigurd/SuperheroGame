@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: ParkKiller0-1
   m_EditorClassIdentifier: 
   Title: 'The Park Killer: A New Lead'
-  TextBody: 'As I walk through the valley of the shadow of death I take a look at
-    my life and realize there''s not much left coz I''ve been blastin'' and laughin''
-    so long that even my mama thinks that my mind is gone '
+  TextBody: You've tracked the man you saw near the crime scene to an apartment complex
+    near the docks. Time to investigate closer.
   Picture: {fileID: 0}
   MoneyCost: 10
   EnergyCost: 20
